@@ -1,10 +1,12 @@
 // Connect to ddbb
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('rallydb', 'rally', 'covid19', {
-    host: '212.183.252.91',
+
+//DELETED IP AND PASSWORD TO UPLOAD :)))
+/*const sequelize = new Sequelize('', '', '', {
+    host: '',
     dialect: 'postgres',
     logging: false
-});
+});*/
 
 module.exports = {
     connection: function() {
